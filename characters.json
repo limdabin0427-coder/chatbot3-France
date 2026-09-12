@@ -1,0 +1,44 @@
+{
+  "France": {
+    "name": "Emma",
+    "name_aliases": ["Ema", "Emmer", "Amma", "MMA", "Anna"],
+    "country": "France",
+    "country_question_name": "France",
+    "age": 10,
+    "gender": "female",
+    "emoji": "🇫🇷",
+    "sheet_tab": "France",
+    "landing_title": "Welcome to my Country!",
+    "home_url": "https://visit-countries.lovable.app",
+    "intro_message": "It's good to see you again.",
+    "intro_speech": "Hi! It's good to see you again.",
+    "preference_food": "macarons",
+    "retry_examples": {
+      "STUDENT_QUESTION_1": "Do you like sandwiches?",
+      "STUDENT_QUESTION_2": "Do you like macarons?"
+    },
+    "ending_message": "Perfect! I hope to see you again! Bye-bye!",
+    "finale_message": "내 나라에 놀러 와 줘서 고마워, 친구야!\nBye-bye, my friend!",
+    "images": {
+      "flag": "France flag.gif",
+      "intro_backgrounds": ["France background 1.gif", "France background 2.gif"],
+      "backgrounds": ["image 1.png", "image 2.png", "image 3.png", "image 4.png"],
+      "character": {
+        "greeting": "greeting.gif",
+        "speaking": "speaking.gif",
+        "yes": "yes.gif",
+        "no": "no.gif"
+      }
+    },
+    "tts": {
+      "provider": "openai",
+      "model": "gpt-4o-mini-tts",
+      "voice": "marin",
+      "instructions": "Speak in a bright, cheerful, energetic, and youthful voice. Use a light tone, a slightly higher pitch, and a lively rhythm. Smile while speaking. Avoid sounding mature, slow, or formal. Use clear American English. Do not add or change any words.",
+      "gender": "female",
+      "child_mode": true,
+      "rate": 0.85,
+      "pitch": 1.35
+    }
+  }
+}
